@@ -1,34 +1,43 @@
 [
   {
-    "name": "홍길동",
-    "role": "회장 / Project Lead",
-    "major": "소프트웨어학부",
-    "description": "전체 프로젝트 운영과 기술 방향 설정을 담당합니다.",
-    "skills": ["Planning", "Robotics", "Python"],
-    "projectFocus": ["Control", "AI"]
+    "name": "이태경",
+    "role": "Control / AI / VLA",
+    "major": "SW",
+    "description": [],
+    "skills": [],
+    "projectFocus": []
   },
   {
-    "name": "김로봇",
-    "role": "Hardware Lead",
-    "major": "기계공학",
-    "description": "기구 설계와 제작, 하드웨어 통합을 담당합니다.",
-    "skills": ["CAD", "Mechanism", "Fabrication"],
-    "projectFocus": ["Hardware"]
+    "name": "조재민",
+    "role": "Vision / AI / Embedded",
+    "major": "AI Semiconductor",
+    "description": [],
+    "skills": [],
+    "projectFocus": []
   },
   {
-    "name": "이비전",
-    "role": "Vision / AI",
-    "major": "인공지능융합",
-    "description": "비전 인식 모델과 학습 파이프라인을 개발합니다.",
-    "skills": ["PyTorch", "CV", "Model Training"],
-    "projectFocus": ["Vision", "AI"]
+    "name": "김경식",
+    "role": "Robot Design / 3D Printing ",
+    "major": "BE",
+    "description": [],
+    "skills": [],
+    "projectFocus": []
   },
   {
-    "name": "박제어",
-    "role": "Control / Embedded",
-    "major": "전기전자공학",
-    "description": "제어기 구현과 센서/보드 연동을 담당합니다.",
-    "skills": ["Control", "MCU", "ROS"],
-    "projectFocus": ["Control", "Embedded"]
+    "name": "이지원",
+    "role": "Embedded / Data",
+    "major": "DS & EE",
+    "description": [],
+    "skills": [],
+    "projectFocus": []
+  }
+  ,
+  {
+    "name": "신승준",
+    "role": "Mechanics / Control",
+    "major": "ME",
+    "description": [],
+    "skills": [],
+    "projectFocus": []
   }
 ]

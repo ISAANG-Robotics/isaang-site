@@ -117,6 +117,7 @@ function renderProjects(items = []) {
 }
 
 function renderMemberSummary(items = []) {
+  return; // 일단 숨김
   const container = document.getElementById('memberSummary');
   if (!container) return;
 

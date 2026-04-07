@@ -2,27 +2,13 @@
   {
     "status": "In Progress",
     "title": "Collaborative Robot Arm",
-    "description": "협업 작업을 수행하는 로봇팔 시스템을 설계하고 제어 알고리즘을 개발하는 프로젝트입니다.",
-    "tags": ["Manipulator", "Control", "Simulation"],
+    "description": "자연어기반 협업 작업을 수행하는 로봇팔 시스템을 설계하고 제어 알고리즘을 개발하는 프로젝트입니다.",
+    "tags": ["Vision", "Control", "LLM", "IL & RL" ],
     "links": [
       {
-        "label": "GitHub Repo",
+        "label": "준비중",
         "url": "https://github.com/isaang-robotics"
       }
     ]
-  },
-  {
-    "status": "Prototype",
-    "title": "Vision-based Mobile Robot",
-    "description": "카메라와 센서를 이용해 환경을 인식하고 자율적으로 이동하는 모바일 로봇 프로젝트입니다.",
-    "tags": ["Computer Vision", "SLAM", "Navigation"],
-    "links": []
-  },
-  {
-    "status": "Research",
-    "title": "Imitation + RL for Robot Task",
-    "description": "모방학습과 강화학습을 결합해 로봇이 작업을 효율적으로 수행하도록 만드는 학습 기반 프로젝트입니다.",
-    "tags": ["Reinforcement Learning", "Imitation Learning", "Robot Learning"],
-    "links": []
   }
 ]
