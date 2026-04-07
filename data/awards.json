@@ -1,0 +1,20 @@
+[
+  {
+    "category": "Activity",
+    "title": "교내 프로젝트 쇼케이스 참가",
+    "description": "동아리 대표 프로젝트를 시연하고 설계 과정과 구현 결과를 발표했습니다.",
+    "links": []
+  },
+  {
+    "category": "Award",
+    "title": "로봇·AI 아이디어 경진대회 우수상",
+    "description": "협업형 로봇 시스템 제안으로 우수상을 수상했습니다. 실제 수상명으로 수정해 주세요.",
+    "links": []
+  },
+  {
+    "category": "Activity",
+    "title": "학술제 포스터 발표",
+    "description": "프로젝트 설계, 실험 결과, 향후 확장 계획을 포스터 형식으로 정리해 발표했습니다.",
+    "links": []
+  }
+]
