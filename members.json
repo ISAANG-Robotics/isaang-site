@@ -1,0 +1,43 @@
+[
+  {
+    "name": "이태경",
+    "role": "Control / AI / VLA",
+    "major": "SW",
+    "description": [],
+    "skills": [],
+    "projectFocus": []
+  },
+  {
+    "name": "조재민",
+    "role": "Vision / AI / Embedded",
+    "major": "AI Semiconductor",
+    "description": [],
+    "skills": [],
+    "projectFocus": []
+  },
+  {
+    "name": "김경식",
+    "role": "Robot Design / 3D Printing ",
+    "major": "BE",
+    "description": [],
+    "skills": [],
+    "projectFocus": []
+  },
+  {
+    "name": "이지원",
+    "role": "Embedded / Data",
+    "major": "DS & EE",
+    "description": [],
+    "skills": [],
+    "projectFocus": []
+  }
+  ,
+  {
+    "name": "신승준",
+    "role": "Mechanics / Control",
+    "major": "ME",
+    "description": [],
+    "skills": [],
+    "projectFocus": []
+  }
+]

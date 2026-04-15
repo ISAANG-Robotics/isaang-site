@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ISAANG Robotics</title>
+  <meta name="description" content="프로젝트형 로보틱스 동아리" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;700;900&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#hero" class="brand">
+        <div class="brand-kanji">二相</div>
+        <div class="brand-divider"></div>
+        <div class="brand-en">
+          <strong>ISAANG Robotics</strong>
+          <span>Project-based Robotics Club</span>
+        </div>
+      </a>
+      <button class="menu-toggle" id="menuToggle">MENU</button>
+      <nav id="navMenu">
+        <a href="#about">소개</a>
+        <a href="#history">연혁</a>
+        <a href="#awards">수상</a>
+        <a href="#projects">프로젝트</a>
+        <a href="#members">인원</a>
+        <a href="#recruit">지원</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ── HERO ── -->
+    <section class="hero" id="hero">
+      <div class="hero-left">
+        <p class="hero-tag" id="heroTag">What is your ideal?</p>
+        <h1 class="hero-kanji">二相</h1>
+        <p class="hero-subtitle">ISAANG ROBOTICS<br>A TO Z PROJECT CLUB</p>
+        <p class="hero-desc" id="heroDesc"></p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">프로젝트 보기</a>
+          <a class="btn btn-outline" href="#recruit">지원 안내</a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <!-- 히어로 이미지: 교체하려면 img src 경로만 변경 -->
+        <img class="hero-img" src="느낌1.png" alt="ISAANG Robotics Lab" />
+        <div class="hero-stats" id="heroStats"></div>
+      </div>
+    </section>
+
+    <!-- ── MARQUEE ── -->
+    <div class="marquee-bar">
+      <div class="marquee-inner" id="marqueeInner"></div>
+    </div>
+
+    <!-- ── ABOUT ── -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-code">About</div>
+          <h2 class="section-title">동아리 소개</h2>
+        </div>
+        <div class="about-layout">
+          <div class="about-text" id="aboutText"></div>
+          <div class="about-sidebar">
+            <div class="sidebar-item">
+              <div class="sidebar-num">01</div>
+              <div class="sidebar-content">
+                <h4>Hardware</h4>
+                <p>설계, 3D 프린팅, 제작까지 직접 수행하는 하드웨어 제작 중심</p>
+              </div>
+            </div>
+            <div class="sidebar-item">
+              <div class="sidebar-num">02</div>
+              <div class="sidebar-content">
+                <h4>Control &amp; AI</h4>
+                <p>제어 알고리즘, 비전, LLM 기반 로봇 지능 개발</p>
+              </div>
+            </div>
+            <div class="sidebar-item">
+              <div class="sidebar-num">03</div>
+              <div class="sidebar-content">
+                <h4>Research</h4>
+                <p>공모전, 논문, 발표까지 이어지는 프로젝트 완성도 추구</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── HISTORY ── -->
+    <section class="section section-alt" id="history">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-code">History</div>
+          <h2 class="section-title">연혁</h2>
+        </div>
+        <div class="timeline" id="historyList"></div>
+      </div>
+    </section>
+
+    <!-- ── AWARDS ── -->
+    <section class="section" id="awards">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-code">Awards &amp; Activities</div>
+          <h2 class="section-title">수상 및 활동</h2>
+        </div>
+        <div class="awards-grid" id="awardsList"></div>
+      </div>
+    </section>
+
+    <!-- ── PROJECTS ── -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-code">Projects</div>
+          <h2 class="section-title">프로젝트</h2>
+        </div>
+        <div class="projects-grid" id="projectsList"></div>
+      </div>
+    </section>
+
+    <!-- ── MEMBERS ── -->
+    <section class="section" id="members">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-code">Members</div>
+          <h2 class="section-title">인원 구성</h2>
+        </div>
+        <div class="members-grid" id="membersList"></div>
+      </div>
+    </section>
+
+    <!-- ── RECRUIT ── -->
+    <section class="section section-alt" id="recruit">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-code">Recruit</div>
+          <h2 class="section-title">지원 안내</h2>
+        </div>
+        <div class="recruit-layout">
+          <div class="recruit-block">
+            <div class="recruit-block-title">이런 사람을 찾습니다</div>
+            <ul class="recruit-list" id="recruitTargets"></ul>
+          </div>
+          <div class="recruit-block">
+            <div class="recruit-block-title">지원 절차</div>
+            <ol class="recruit-list" id="recruitProcess"></ol>
+          </div>
+          <div class="recruit-block">
+            <div class="recruit-block-title">문의</div>
+            <div class="contact-info" id="contactInfo"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <div class="footer-brand" id="footerClubName">ISAANG Robotics</div>
+        <p class="footer-desc" id="footerDescription"></p>
+      </div>
+      <div class="footer-links" id="footerLinks"></div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

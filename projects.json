@@ -1,0 +1,14 @@
+[
+  {
+    "status": "In Progress",
+    "title": "Collaborative Robot Arm",
+    "description": "자연어기반 협업 작업을 수행하는 로봇팔 시스템을 설계하고 제어 알고리즘을 개발하는 프로젝트입니다.",
+    "tags": ["Vision", "Control", "LLM", "IL & RL" ],
+    "links": [
+      {
+        "label": "준비중",
+        "url": "https://github.com/isaang-robotics"
+      }
+    ]
+  }
+]
