@@ -2,12 +2,25 @@
   {
     "status": "In Progress",
     "title": "Collaborative Robot Arm",
-    "description": "자연어기반 협업 작업을 수행하는 로봇팔 시스템을 설계하고 제어 알고리즘을 개발하는 프로젝트입니다.",
-    "tags": ["Vision", "Control", "LLM", "IL & RL" ],
+    "description": "자연어기반 협업 작업을 수행하는 로봇팔 시스템을 설계하고 제어 알고리즘을 개발하는 프로젝트",
+    "tags": ["이태경", "조재민", "김경식", "이지원", "신승준" ],
     "links": [
       {
-        "label": "준비중",
-        "url": "https://github.com/isaang-robotics"
+        "label": "GitHub Repository",
+        "url": "https://github.com/ISAANG-Robotics/Surgical-Assistant-Robot"
+      }
+    ]
+  }
+  ,
+  {
+    "status": "In Progress",
+    "title": "Quadruped Robot",
+    "description": "4족 보행 로봇 시스템을 설계하고 제어 알고리즘을 개발하는 프로젝트",
+    "tags": ["이태경"],
+    "links": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/bigse0u1/Personal-Quadruped-Robot"
       }
     ]
   }
